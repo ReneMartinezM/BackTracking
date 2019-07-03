@@ -17,6 +17,7 @@ public class Puzzle
 		costos 		=  new int[4];
 		costo = 0;
 	}
+
 	public Stack<Nodo> getVisitados()
 	{
 		return visitados;
@@ -249,7 +250,7 @@ public class Puzzle
             System.out.println(" ");
         }
 	}
-
+/*
 	public static void main(String[] args)
 	{
 		Puzzle p 	=  new Puzzle();
@@ -287,5 +288,5 @@ public class Puzzle
 
 			System.out.println("Hola mundo");
 	}//FIN MAIN
-
+*/
 }//FIN CLASE PUZZLE
