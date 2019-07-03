@@ -284,6 +284,8 @@ public class Puzzle
 			p.inicializaCostos();
 			
 			Boolean valor = p.back(matrizInicial,etapa);			
+
+			System.out.println("Hola mundo");
 	}//FIN MAIN
 
 }//FIN CLASE PUZZLE
